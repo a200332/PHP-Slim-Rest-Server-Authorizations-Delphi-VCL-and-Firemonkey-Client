@@ -1,0 +1,252 @@
+object fmmain: Tfmmain
+  Left = 0
+  Top = 0
+  Caption = 'FMX Rest APP   basic Auth - APIKey Auth  - JWT Auth '
+  ClientHeight = 492
+  ClientWidth = 589
+  FormFactor.Width = 1280
+  FormFactor.Height = 720
+  FormFactor.Devices = [Desktop]
+  OnShow = FormShow
+  DesignerMasterStyle = 0
+  object ToolBar1: TToolBar
+    Position.Y = 40.000000000000000000
+    Size.Width = 589.000000000000000000
+    Size.Height = 57.000000000000000000
+    Size.PlatformDefault = False
+    object Button1: TButton
+      Align = Scale
+      Position.X = 56.000000000000000000
+      Position.Y = 32.000000000000000000
+      Size.Width = 80.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Reset'
+      OnClick = Button1Click
+    end
+    object Button2: TButton
+      Align = Scale
+      Position.X = 144.000000000000000000
+      Position.Y = 32.000000000000000000
+      Size.Width = 80.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      Text = 'Get'
+      OnClick = Button2Click
+    end
+    object Button3: TButton
+      Align = Scale
+      Position.X = 352.000000000000000000
+      Position.Y = 32.000000000000000000
+      Size.Width = 80.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      Text = 'Reset'
+      OnClick = Button3Click
+    end
+    object Button4: TButton
+      Align = Scale
+      Position.X = 440.000000000000000000
+      Position.Y = 32.000000000000000000
+      Size.Width = 80.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Text = 'Get'
+      OnClick = Button4Click
+    end
+    object Label2: TLabel
+      Align = Scale
+      Position.X = 88.000000000000000000
+      Position.Y = 8.000000000000000000
+      Size.Width = 209.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Basic Authorization'
+    end
+    object Label3: TLabel
+      Align = Scale
+      Position.X = 384.000000000000000000
+      Position.Y = 8.000000000000000000
+      Size.Width = 201.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'API Key Authorization'
+    end
+  end
+  object Layout1: TLayout
+    Align = Top
+    Position.Y = 259.000000000000000000
+    Size.Width = 589.000000000000000000
+    Size.Height = 185.000000000000000000
+    Size.PlatformDefault = False
+    object Layout2: TLayout
+      Align = Top
+      Size.Width = 589.000000000000000000
+      Size.Height = 233.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      object Memo3: TMemo
+        Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+        DataDetectorTypes = []
+        TextSettings.WordWrap = True
+        Align = Scale
+        Padding.Left = 5.000000000000000000
+        Padding.Top = 5.000000000000000000
+        Padding.Right = 5.000000000000000000
+        Padding.Bottom = 5.000000000000000000
+        Position.X = 4.659811973571777000
+        Position.Y = 6.297297000885010000
+        Size.Width = 279.588409423828100000
+        Size.Height = 220.405395507812500000
+        Size.PlatformDefault = False
+        Viewport.Width = 275.600000000000000000
+        Viewport.Height = 216.400000000000000000
+      end
+      object Memo4: TMemo
+        Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+        DataDetectorTypes = []
+        TextSettings.WordWrap = True
+        Align = Scale
+        Padding.Left = 5.000000000000000000
+        Padding.Top = 5.000000000000000000
+        Padding.Right = 5.000000000000000000
+        Padding.Bottom = 5.000000000000000000
+        Position.X = 294.500000000000000000
+        Position.Y = 6.297297000885010000
+        Size.Width = 289.898437500000000000
+        Size.Height = 220.405395507812500000
+        Size.PlatformDefault = False
+        Viewport.Width = 285.900000000000000000
+        Viewport.Height = 216.400000000000000000
+      end
+    end
+  end
+  object ToolBar3: TToolBar
+    Position.Y = 209.000000000000000000
+    Size.Width = 589.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    object Button5: TButton
+      Align = Scale
+      Position.X = 64.000000000000000000
+      Position.Y = 25.000000000000000000
+      Size.Width = 80.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Text = 'Reset'
+      OnClick = Button5Click
+    end
+    object Button6: TButton
+      Align = Scale
+      Position.X = 152.000000000000000000
+      Position.Y = 25.000000000000000000
+      Size.Width = 80.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      Text = 'Get'
+      OnClick = Button6Click
+    end
+    object Button7: TButton
+      Align = Scale
+      Position.X = 360.000000000000000000
+      Position.Y = 25.000000000000000000
+      Size.Width = 80.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      Text = 'Reset'
+      OnClick = Button7Click
+    end
+    object Button8: TButton
+      Align = Scale
+      Position.X = 448.000000000000000000
+      Position.Y = 25.000000000000000000
+      Size.Width = 80.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 3
+      Text = 'Get'
+      OnClick = Button8Click
+    end
+    object Label4: TLabel
+      Align = Scale
+      Position.X = 72.000000000000000000
+      Position.Y = 3.000000000000000000
+      Size.Width = 249.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'JWT Auth Send to User auth'
+    end
+    object Label5: TLabel
+      Align = Scale
+      Position.X = 392.000000000000000000
+      Position.Y = 3.000000000000000000
+      Size.Width = 185.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'JWT Auth Get Pricing'
+    end
+  end
+  object ToolBar2: TToolBar
+    Size.Width = 589.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object Label1: TLabel
+      Align = Client
+      StyledSettings = [Family, FontColor]
+      Size.Width = 589.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 18.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.HorzAlign = Center
+      Text = 'FMX  App       Basic Auth - APIKey - JWT Auth Methods'
+    end
+  end
+  object Layout3: TLayout
+    Align = Top
+    Position.Y = 97.000000000000000000
+    Size.Width = 589.000000000000000000
+    Size.Height = 112.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object Memo5: TMemo
+      Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+      DataDetectorTypes = []
+      Align = Scale
+      Padding.Left = 5.000000000000000000
+      Padding.Top = 5.000000000000000000
+      Padding.Right = 5.000000000000000000
+      Padding.Bottom = 5.000000000000000000
+      Position.X = 4.659811973571777000
+      Position.Y = 3.027027130126953000
+      Size.Width = 279.588409423828100000
+      Size.Height = 105.945953369140600000
+      Size.PlatformDefault = False
+      Viewport.Width = 275.600000000000000000
+      Viewport.Height = 101.900000000000000000
+    end
+    object Memo6: TMemo
+      Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+      DataDetectorTypes = []
+      Align = Scale
+      Padding.Left = 5.000000000000000000
+      Padding.Top = 5.000000000000000000
+      Padding.Right = 5.000000000000000000
+      Padding.Bottom = 5.000000000000000000
+      Position.X = 294.500000000000000000
+      Position.Y = 3.027027130126953000
+      Size.Width = 289.898437500000000000
+      Size.Height = 105.945953369140600000
+      Size.PlatformDefault = False
+      Viewport.Width = 285.900000000000000000
+      Viewport.Height = 101.900000000000000000
+    end
+  end
+end

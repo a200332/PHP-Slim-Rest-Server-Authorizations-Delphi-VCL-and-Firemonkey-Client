@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2017/11/29 11:17:39.000.036,=D:\Webdevelopment\htdocs\Testing\PHPSlimRestDevelopment\PHPDelphibasicauthmethods\DelphiBasicAuthMethods\IDhttpUtils.pas</Transaction>
+    <Transaction>2017/11/29 11:40:19.000.938,D:\Webdevelopment\htdocs\Testing\PHPSlimRestDevelopment\PHPDelphibasicauthmethods\DelphiBasicAuthMethods\DelphAuthMethods.dproj=D:\Webdevelopment\htdocs\Testing\PHPSlimRestDevelopment\PHPDelphibasicauthmethods\DelphiBasicAuthMethods\DelphAuthMethods.dproj</Transaction>
+    <Transaction>2017/11/29 13:20:01.000.167,D:\Webdevelopment\htdocs\Testing\PHPSlimRestDevelopment\PHPDelphibasicauthmethods\DelphiBasicAuthMethods\DelphAuthMethods.dproj=D:\Webdevelopment\htdocs\Testing\PHPSlimRestDevelopment\PHPDelphibasicauthmethods\DelphiBasicAuthMethods\DelphAuthMethods.dproj</Transaction>
+    <Transaction>2017/11/29 14:00:35.000.817,D:\Webdevelopment\htdocs\Testing\PHPSlimRestDevelopment\PHPDelphibasicauthmethods\DelphiBasicAuthMethods\DelphAuthMethods.dproj=D:\Webdevelopment\htdocs\Testing\PHPSlimRestDevelopment\PHPDelphibasicauthmethods\DelphiBasicAuthMethods\DelphAuthMethods.dproj</Transaction>
+    <Transaction>2017/11/29 18:37:27.000.662,D:\Webdevelopment\htdocs\Testing\PHPSlimRestDevelopment\PHPDelphibasicauthmethods\DelphiBasicAuthMethods\DelphAuthMethods.dproj=D:\Webdevelopment\htdocs\Testing\PHPSlimRestDevelopment\PHPDelphibasicauthmethods\DelphiBasicAuthMethods\DelphAuthMethods.dproj</Transaction>
+    <Transaction>2017/11/30 13:08:19.000.032,E:\htdoc\PhpSlimAuth\DelphiBasicAuthMethods\DelphAuthMethods.dproj=E:\htdoc\PhpSlimAuth\DelphiBasicAuthMethods\DelphAuthMethods.dproj</Transaction>
+    <Transaction>2017/11/30 13:08:41.000.802,E:\htdoc\PhpSlimAuth\DelphiBasicAuthMethods\DelphAuthMethods.dproj=E:\htdoc\PhpSlimAuth\DelphiBasicAuthMethods\VCLRestApp.dproj</Transaction>
+    <Transaction>2017/11/30 13:09:03.000.342,E:\htdoc\PhpSlimAuth\DelphiBasicAuthMethods\VCLRestApp.dproj=E:\htdoc\PhpSlimAuth\DelphiBasicAuthMethods\VCLRestApp.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
