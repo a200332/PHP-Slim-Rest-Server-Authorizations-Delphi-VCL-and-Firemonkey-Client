@@ -1213,12 +1213,15 @@ than having one set available in the data-module. This will make it easier for
 those setting up Asynchronous HTTP REST Calling and require a small template
 library to call in their Android Apps.
 
-** Recent Changes
-*** Changes made
-06/08/2018
-Updated SLim3 to latest version. 
-Fixed broken link.
-Removed JWA extra line of code (line4)
+**Recent Changes**
+
+**06/08/2018**
+
+* Updated SLim 3 to latest version. 
+
+* Fixed broken link.
+
+* Removed JWA extra line of code (line4)
 
 
 Happy Coding
